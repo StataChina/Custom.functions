@@ -1,5 +1,8 @@
-*! version 14.1  23dec2016
+*! version 1.0  23dec2016
 *Tim Essam, USAID GeoCenter (via Nick Cox)
+
+version 14.1
+capture program drop attachlabels
 
 program define attachlabels
   foreach v of var * {
